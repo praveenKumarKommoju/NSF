@@ -1,0 +1,40 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+:root .swiper-button-next,
+:root .swiper-button-prev {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  width: 40px;
+  height: 40px;
+  border-radius: 9999px; /* full */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 50;
+}
+
+:root .swiper-button-next::after,
+:root .swiper-button-prev::after {
+  font-size: 18px;
+  font-weight: bold;
+}
