@@ -3,13 +3,13 @@ export const themes = {
     headerText:'red',
     background:'white',
     primary:'#dc2626',
-    textPrimary:'#dc2626'
+    textPrimary:'#000000'
   },
   dark: {
     headerText:'red',
     background:'black',
     primary:'#dc2626',
-    textPrimary:'#dc2626'
+    textPrimary:'#ffffff'
   },
 };
 

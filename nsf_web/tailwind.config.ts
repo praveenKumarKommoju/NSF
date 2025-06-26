@@ -11,7 +11,8 @@ export default {
       colors: {
         background: "var(--nsf-background)",
         foreground: "var(--nsf-foreground)",
-        primary: "var(--nsf-textPrimary)",
+        primary: "var(--nsf-primary)",
+		textPrimary: "var(--nsf-textPrimary)",
       },
       		spacing: {
 			xs: '32rem',

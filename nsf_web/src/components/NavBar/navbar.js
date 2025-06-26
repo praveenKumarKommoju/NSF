@@ -19,9 +19,12 @@ const Navbar=()=> {
       <div className="flex justify-between items-center mx-10">
         <div className='flex items-end gap-6'>
    <img src="/logo.svg" alt={'logo'} className='h-48'/>
-        <Link href="/" className="text-xl font-bold text-primary">
+   <div className='flex flex-col justify-end'>
+        <Link href="/" className="text-3xl font-bold text-primary">
           Niranthar Seva Foundation
         </Link>
+        <div className='text-textPrimary text-end'>We are with you, why don't you join us..!!</div>
+        </div>
         </div>
 
         {/* Mobile Menu Toggle */}
