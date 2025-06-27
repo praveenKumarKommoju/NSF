@@ -3,7 +3,8 @@ export const themes = {
     headerText:'red',
     background:'white',
     primary:'#dc2626',
-    textPrimary:'#000000'
+    textPrimary:'#000000',
+    primaryButtonHover:'#cc0000'
   },
   dark: {
     headerText:'red',

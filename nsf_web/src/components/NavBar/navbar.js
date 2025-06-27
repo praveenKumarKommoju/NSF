@@ -41,7 +41,7 @@ const Navbar=()=> {
         <ul className="hidden md:flex gap-6 text-primary font-medium items-center">
           <li><Link href="/">Home</Link></li>
           <li><Link href="/about">About</Link></li>
-          <li><Link href="/contact">Contact</Link></li>
+          <li><Link href="/contactus">Contact</Link></li>
           <li><PrimaryButton /></li>
         </ul>
       </div>
@@ -51,7 +51,7 @@ const Navbar=()=> {
         <ul className="md:hidden mt-2 px-4 space-y-2 text-black font-medium mt-4">
           <li><Link href="/" onClick={toggleMenu}>Home</Link></li>
           <li><Link href="/about" onClick={toggleMenu}>About</Link></li>
-          <li><Link href="/contact" onClick={toggleMenu}>Contact</Link></li>
+          <li><Link href="/contactus" onClick={toggleMenu}>Contact</Link></li>
           <li><PrimaryButton/></li>
         </ul>
       )}

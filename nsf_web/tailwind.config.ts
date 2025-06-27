@@ -13,6 +13,7 @@ export default {
         foreground: "var(--nsf-foreground)",
         primary: "var(--nsf-primary)",
 		textPrimary: "var(--nsf-textPrimary)",
+		primaryButtonHover:"var(--nsf-primaryButtonHover)",
       },
       		spacing: {
 			xs: '32rem',

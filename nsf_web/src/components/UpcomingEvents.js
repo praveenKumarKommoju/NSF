@@ -33,17 +33,17 @@ const UpcomingEventsSection = () => {
   ];
 
   return (
-    <div className="min-h-screen bg-gray-50 py-8">
-      <div className="container mx-auto px-4 sm:px-6 lg:px-8 max-w-6xl">
+    <div className="bg-gray-50 py-8">
+      <div className="mx-10">
         {/* Section Header */}
         <div className="text-center mb-8">
-          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-900 mb-2">
-            Events.
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-2">
+            Upcoming Events
           </h1>
         </div>
         
         {/* Events Grid */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {events.map((event, index) => (
             <UpcomingEventCard
               key={index}

@@ -44,13 +44,13 @@ const EventsOrganized = () => {
     <div className="bg-gray-50 py-6 sm:py-8">
       <div className="mx-10">
         {/* Section Header */}
-        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between mb-6 sm:mb-8">
-          <h1 className="text-2xl sm:text-3xl lg:text-4xl font-bold text-primary mb-4 sm:mb-0">
+        <div className="text-center mb-10">
+          <h1 className="text-3xl sm:text-4xl lg:text-5xl font-bold text-primary mb-4 sm:mb-0">
             Events organized
           </h1>
-          <button className="text-gray-600 hover:text-gray-800 font-semibold text-sm sm:text-base uppercase tracking-wide transition-colors duration-200 self-start sm:self-auto">
+          {/* <button className="text-gray-600 hover:text-gray-800 font-semibold text-sm sm:text-base uppercase tracking-wide transition-colors duration-200 self-start sm:self-auto">
             VIEW ALL
-          </button>
+          </button> */}
         </div>
         
         {/* News Grid */}
