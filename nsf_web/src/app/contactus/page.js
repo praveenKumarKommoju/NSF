@@ -37,15 +37,15 @@ const ContactUs = () => {
       {/* Hero Section */}
       <div 
         className="relative h-64 bg-cover bg-center flex items-center justify-center"
-        style={{
-          backgroundImage: 'linear-gradient(rgba(59, 130, 246, 0.8), rgba(29, 78, 216, 0.8)), url("https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&h=400&fit=crop")',
-        }}
+        // style={{
+        //   backgroundImage: 'linear-gradient(rgba(59, 130, 246, 0.8), rgba(29, 78, 216, 0.8)), url("https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=1200&h=400&fit=crop")',
+        // }}
       >
-        <div className="text-center text-white">
-          <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact us</h1>
-          <p className="text-lg md:text-xl max-w-2xl mx-auto px-4">
+        <div className="text-center text-primary">
+          {/* <h1 className="text-4xl md:text-5xl font-bold mb-4">Contact us</h1> */}
+          {/* <p className="text-lg md:text-xl max-w-2xl mx-auto px-4">
             Kassapay is ready to provide the right solution according to your needs
-          </p>
+          </p> */}
         </div>
       </div>
 
@@ -56,37 +56,32 @@ const ContactUs = () => {
             
             {/* Left Side - Contact Information */}
             <div className="p-8 bg-gray-50">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Get in touch</h2>
+              <h2 className="text-2xl font-bold text-primary mb-6">Get in touch</h2>
               <p className="text-gray-600 mb-8">
-                Sociology means looking at social self-evident inequality
-                sociological factors like status and class.
+                Donate, volunteer, or host a drive — together, we uplift lives through compassion and action.
               </p>
 
               {/* Contact Details */}
               <div className="space-y-6">
                 {/* Head Office */}
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <PlaceOutlinedIcon className="w-5 h-5 text-blue-600" />
-                  </div>
+                    <PlaceOutlinedIcon className="text-primary" fontSize='large' />
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Head Office</h3>
+                    <h3 className="font-semibold text-primary mb-1">Location</h3>
                     <p className="text-gray-600 text-sm">
-                      Jalan Cemara Wang No.29<br />
-                      Jakarta - Indonesia
+                      1-135, Near hanuman temple, T. Sirasapalli,<br />
+                       Munagapaka, Anakapalli, A.P
                     </p>
                   </div>
                 </div>
 
                 {/* Email Us */}
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <EmailOutlinedIcon className="w-5 h-5 text-blue-600" />
-                  </div>
+                        <EmailOutlinedIcon className="text-primary" fontSize='large'/>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Email Us</h3>
+                    <h3 className="font-semibold text-primary mb-1">Email Us</h3>
                     <p className="text-gray-600 text-sm">
-                      support@example.com<br />
+                      ganeshkommoju@gmail.com<br />
                       hello@example.com
                     </p>
                   </div>
@@ -94,11 +89,9 @@ const ContactUs = () => {
 
                 {/* Call Us */}
                 <div className="flex items-start space-x-4">
-                  <div className="w-10 h-10 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
-                    <PhoneInTalkOutlinedIcon className="w-5 h-5 text-blue-600" />
-                  </div>
+                                      <PhoneInTalkOutlinedIcon className="text-primary" fontSize='large'/>
                   <div>
-                    <h3 className="font-semibold text-gray-900 mb-1">Call Us</h3>
+                    <h3 className="font-semibold text-primary mb-1">Call Us</h3>
                     <p className="text-gray-600 text-sm">
                       Phone: +6221-3000-2492<br />
                       Fax: +6221-3000-2493
@@ -129,7 +122,7 @@ const ContactUs = () => {
 
             {/* Right Side - Contact Form */}
             <div className="p-8">
-              <h2 className="text-2xl font-bold text-gray-900 mb-6">Send us a message</h2>
+              <h2 className="text-2xl font-bold text-primary mb-6">Send us a message</h2>
               
               <div className="space-y-4">
                 {/* Name and Company Row */}

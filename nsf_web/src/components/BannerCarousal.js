@@ -11,14 +11,20 @@ import SecondaryButton from './SecondaryButton'
 
 const slides = [
   {
-    title: "Empower the Future",
-    subtitle: "Join hands to support underprivileged communities.",
+    title: "Blood Donation",
+    subtitle: "Donate blood save live",
     cta1: "Donate Now",
     cta2: "Learn More",
   },
   {
-    title: "Be the Change",
-    subtitle: "Volunteer to make a real impact in people’s lives.",
+    title: "Medical Camps and Treatments",
+    subtitle: "Organize medical camps",
+    cta1: "Donate Now",
+    cta2: "Learn More",
+  },
+  {
+    title: "Food and Groceries distributin",
+    subtitle: "Donate for food",
     cta1: "Donate Now",
     cta2: "Learn More",
   },
