@@ -12,8 +12,13 @@ export default {
         background: "var(--nsf-background)",
         foreground: "var(--nsf-foreground)",
         primary: "var(--nsf-primary)",
-		textPrimary: "var(--nsf-textPrimary)",
+		//text
+		primaryText: "var(--nsf-primaryText)",
+		secondaryText: "var(--nsf-secondaryText)",
+		//button
 		primaryButtonHover:"var(--nsf-primaryButtonHover)",
+		//background
+		statsCard:"var(--nsf-statsCard)",
       },
       		spacing: {
 			xs: '32rem',
@@ -74,6 +79,7 @@ export default {
 			224: '22.4rem',
 			256: '25.6rem',
 			288: '28.8rem',
+			300: '30rem',
 			320: '32rem',
 			// 330 px for form right side sections width
 			330: '33rem',

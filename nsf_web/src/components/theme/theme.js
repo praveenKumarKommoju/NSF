@@ -2,15 +2,22 @@ export const themes = {
   light: {
     headerText:'red',
     background:'white',
-    primary:'#dc2626',
-    textPrimary:'#000000',
-    primaryButtonHover:'#cc0000'
+    primary:'#dc2626',// '#1C0D0D',
+
+    primaryText:'#1C0D0D',//'#000000',
+    secondaryText:'#994D52',
+
+    //button
+    primaryButtonHover:'#cc0000',
+
+    //Background
+    statsCard:'#F2E8E8' //stats card
   },
   dark: {
     headerText:'red',
     background:'black',
     primary:'#dc2626',
-    textPrimary:'#ffffff'
+    primaryText:'#ffffff'
   },
 };
 

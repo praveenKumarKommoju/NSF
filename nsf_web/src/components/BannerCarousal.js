@@ -6,8 +6,8 @@ import "swiper/css";
 import "swiper/css/autoplay";
 import { Navigation, Autoplay } from "swiper/modules";
 import "swiper/css/navigation";
-import PrimaryButton from './PrimaryButton'
-import SecondaryButton from './SecondaryButton'
+import PrimaryButton from './Buttons/PrimaryButton'
+import SecondaryButton from './Buttons/SecondaryButton'
 
 const slides = [
   {

@@ -3,14 +3,16 @@
 import React from "react";
 import BannerCarousal from '../components/BannerCarousal';
 import RecentEventsOrganized from '../components/EventsOrganized';
-import UpcomingEvents from '../components/UpcomingEvents';
+import OurImpact from '../components/OurImapcts/OurImpacts'
+import NewsAndUpdates from '../components/NewsAndUpdates/NewsAndUpdates'
 
 export default function Home() {
   return (
     <div >
       <BannerCarousal/>
-      <UpcomingEvents/>
       <RecentEventsOrganized />
+      <OurImpact/>
+      <NewsAndUpdates />
     </div>
   );
 }
